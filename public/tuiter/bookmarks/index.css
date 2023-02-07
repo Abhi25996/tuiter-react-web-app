@@ -1,0 +1,134 @@
+body{
+    background-color: black;
+    border-top: rgb(47, 51, 54) solid 1px;
+    padding-left: 16px;
+    padding-top: 2px;
+    border-left: rgb(47, 51, 54) solid 1px;
+
+}
+
+.wd-title{
+    padding-left: 16px;
+    padding-top: 12px;
+    color: white;
+    font-size: 20px;
+
+}
+.wd-handle{
+    color: lightgray;
+    font-size: 13px;
+    padding-left: 16px;
+    padding-bottom: 12px;
+
+}
+.wd-bottom-border{
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.wd-avatar-image{
+    padding-left: 16px;
+    padding-top: 12px;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+
+}
+
+.wd-author-name{
+    /*padding-left: 60px;*/
+    font-size: 15px;
+    font: bold;
+    color: white;
+}
+
+.wd-author-handle{
+    font-size: 15px;
+    color: lightgray;
+}
+
+.wd-left-padding{
+    padding-left: 12px;
+}
+
+.wd-post{
+    display: flex;
+    flex-direction: row;
+    padding-top: 12px;
+}
+
+.wd-main-content{
+    color: white;
+    font-size: 15px;
+    max-width: 506px;
+    /*padding-bottom: 12px;*/
+}
+
+.wd-content-image{
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-second-content-title{
+    font-weight: bold;
+    color: white;
+    /*padding-top: 12px;*/
+    font-size: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+}
+
+.wd-second-content-text{
+    color: lightgray;
+    /*padding-top: 12px;*/
+    font-size: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px
+
+}
+
+
+.bottom-round-border{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-image-text{
+    border-radius: 30px;
+    border: 1px solid rgb(47, 51, 54);
+    width: 504px;
+}
+
+.wd-icon-gray{
+    font-size: 13px;
+    color: lightgray;
+}
+
+.wd-icon-red{
+    font-size: 13px;
+    color:red;
+}
+
+.wd-text{
+    padding-left: 12px;
+}
+
+nav{
+    display:block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    overflow:auto;
+}
+nav a{
+    text-decoration: none;
+    width:25%;
+    float:left;
+    text-align:center;
+
+
+}
