@@ -1,0 +1,167 @@
+body{
+    /*background-color: black;*/
+    border-top: rgb(47, 51, 54) solid 1px;
+    padding-left: 16px;
+    padding-top: 5px;
+    border-left: rgb(47, 51, 54) solid 1px;
+
+
+}
+
+.wd-tweet-btn{
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+
+.wd-gear{
+    padding-right: 12px;
+    float: right;
+}
+.wd-nosubmit1 {
+    border: none;
+    padding: 0;
+}
+
+.wd-nosubmit2 {
+    width: 260px;
+    border: 1px solid #555;
+    display: block;
+    padding: 9px 4px 9px 40px;
+    background: transparent url('../magnifying-glass.png') no-repeat 1px center;
+    background-size: 25px 20px;
+    border-radius: 30px;
+}
+
+.wd-bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: #171717;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.wd-image-container {
+    margin-top: 5px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.wd-navigation{
+    padding-bottom: 20px;
+}
+
+.wd-first-link{
+    color: rgb(29,161,242);
+    font-size: 15px;
+    padding: 16px;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(29,161,242);
+    /*display: block;*/
+}
+.wd-all-other-links{
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.wd-border-top{
+    border-top: 4px solid rgb(110, 118, 125);
+    padding-top: 20px;
+}
+.wd-border-bottom{
+    border-bottom: 1px solid rgb(110, 118, 125);
+}
+.wd-bold-topic{
+    /*color: black;*/
+    font-size: 13px;
+    font-weight: bold;
+}
+.wd-light-topic{
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+.wd-align-center{
+    align-items: center;
+}
+
+
+.wd-image{
+    border-radius: 10px;
+    width:100px;
+    height:100px;
+    margin-right: 16px;
+    float: right;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    border-radius: 25px;
+    background-color:#f7f9f9;
+    margin-bottom: 5px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+
+.wd-image-logo{
+    border-radius: 50px;
+    width:15px;
+    height:15px;
+    /*padding-right: 16px;*/
+    float: left;
+}
+.wd-image-logo-right{
+    border-radius: 50px;
+    width:15px;
+    height:15px;
+    /*padding-right: 16px;*/
+    float: right;
+}
+
+.wd-border-bottom-image{
+    border-bottom: 1px solid rgb(110, 118, 125);
+    padding-bottom: 50px;
+}
+
+.wd-who-to-follow-image{
+    border-radius: 50%;
+}
+
+.wd-handler{
+    font-size: 13px;
+    color: gray;
+}
+
+.wd-display-block{
+    display: block;
+}
+
+.wd-round-img{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 25px;
+}
+
+.wd-align-center{
+    align-items: center;
+}
+
+.wd-round-corners{
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 5px;
+
+}
