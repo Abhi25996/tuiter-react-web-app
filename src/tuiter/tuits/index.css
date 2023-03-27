@@ -1,0 +1,66 @@
+.wd-post{
+    display: flex;
+    flex-direction: row;
+    padding-top: 12px;
+}
+
+.wd-avatar-image{
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+
+}
+
+.wd-left-padding{
+    padding-left: 12px;
+}
+
+.wd-author-name{
+    /*padding-left: 60px;*/
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.wd-author-handle{
+    font-size: 15px;
+    color: gray;
+    font-weight: normal;
+}
+
+.wd-three-dots{
+    float: right;
+    color: gray;
+}
+
+
+.wd-main-content{
+
+    font-size: 15px;
+    max-width: 506px;
+    /*padding-bottom: 12px;*/
+}
+
+
+nav{
+    display:block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    overflow:auto;
+}
+nav a {
+    text-decoration: none;
+    width: 25%;
+    float: left;
+    text-align: left;
+}
+
+
+.wd-icon-gray{
+    font-size: 15px;
+    color: gray;
+}
+
+
+.wd-text{
+    padding-left: 12px;
+}

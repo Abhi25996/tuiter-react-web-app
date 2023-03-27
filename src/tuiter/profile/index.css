@@ -1,0 +1,30 @@
+.banner{
+    height: 150px;
+    width: 100%;
+    background-image: url('img.png');
+    background-size: 100% 150px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: 80px;
+    left: 5%;
+    border: 4px solid #fff;
+    outline: none;
+}
+
+.edit{
+    position: relative;
+    top: 110px;
+    left: 55%;
+}
+
+
+.infoSection{
+    top: 1000px;
+}

@@ -1,19 +1,13 @@
-import PostItem from "./PostItem";
-import postArray from "./Homeposts.json"
-import "./index.css"
+
 
 import React from "react";
+import TuitList from "../tuits/tuit-list";
+import WhatsHappening from "./whats-happening";
 const HomeComponent = () => {
-    console.log("Recahed home")
-    return(
-      <ul className="list-group">
-            {
-                postArray.map((post, id) =>
-
-                    <PostItem
-                        key={id} post={post}/> )
-            }
-        </ul>
+    return(<>
+        <WhatsHappening/>
+        <TuitList/>
+        </>
    );
 
 }

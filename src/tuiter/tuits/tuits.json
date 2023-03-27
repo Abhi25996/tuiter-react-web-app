@@ -1,0 +1,50 @@
+[
+  {
+    "_id": 234,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "image": "../../images/spacex.png",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@spacex",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+  {
+
+    "_id": 456,
+    "topic": "Entertainment",
+    "userName": "Marvel",
+    "time": "3h",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "image": "../../images/marvel.png",
+    "liked": true,
+    "replies": 223,
+    "retuits": 423,
+    "likes": 2543,
+    "handle": "@Marvel\n",
+    "tuit": "In honor of #WomensHistoryMonth, we’re spotlighting artists featured in the Women of Marvel exhibit at Disney’s Hotel New York – The Art of Marvel. \uD83C\uDFA7 Hear from @peachmomoko60, \n@LaraWest\n, \n@HansStephanie\n, and \n@NatachaBustos\n on the #WomenOfMarvel podcast: http://marvel.com/womenofmarvel"
+
+  },
+
+  {
+
+    "_id": 456,
+    "topic": "Entertainment",
+    "userName": "DC",
+    "time": "3h",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "image": "../../images/dc.png",
+    "liked": true,
+    "replies": 712,
+    "retuits": 320,
+    "likes": 4567,
+    "handle": "@DCOfficial\n",
+    "tuit": "On June 16, worlds collide. Watch the official trailer now for The Flash – only in theaters. #TheFlashMovie"
+
+  }
+
+]
