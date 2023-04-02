@@ -42,9 +42,6 @@ const NavigationSidebar = () => {
                     ${active === 'more'?'active':''}`}>
                 More
             </a>
-            <a className={`list-group-item ${active === 'more'?'active':''}`}>
-                More
-            </a>
 
         </div>
     );

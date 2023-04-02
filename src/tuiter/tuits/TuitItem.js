@@ -1,6 +1,7 @@
 import TuitStats from "./tuit-stats";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "./tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
+
 const TuitItem = (
     {
         tuit = {
@@ -23,21 +24,20 @@ const TuitItem = (
     console.log(tuit)
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        console.log("Reached")
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
 
-
+    console.log(tuit)
     return (
         <>
         <div class="wd-post">
-            <img class="col-1 wd-avatar-image" src={tuit.image}/>
+            <img class="col-1 wd-avatar-image" src={`/images/${tuit.image}`}/>
             <div class="col-11 ps-2">
                 <div>
                     <i className="bi bi-x-lg float-end float-right"
                        onClick={() => deleteTuitHandler(tuit._id)}></i>
                     <div class=" wd-author-name">
-                        <span> {tuit.userName} </span>
+                        <span> {tuit.username} </span>
                         <i className="ps-2 pe-2 bi bi-patch-check-fill text-primary"></i>
                         <span class="wd-author-handle">{tuit.handle} · {tuit.time}</span>
                     </div>

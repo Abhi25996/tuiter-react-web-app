@@ -1,4 +1,6 @@
 import {useState} from "react";
+import {useDispatch} from "react-redux";
+import {updateTuitThunk} from "../../services/tuits-thunks";
 
 const TuitStats = (
     {
@@ -21,11 +23,20 @@ const TuitStats = (
 ) =>{
     const [likes, setLikes] = useState(tuit.likes)
     const [liked, setLiked] = useState(tuit.liked)
+    const dispatch = useDispatch()
     const UpdateLikes =() =>{
         if(liked){
+            dispatch(updateTuitThunk({
+                ...tuit,
+                likes: tuit.likes - 1
+            }))
             setLikes(likes-1);
         }
         else{
+            dispatch(updateTuitThunk({
+                ...tuit,
+                likes: tuit.likes + 1
+            }))
             setLikes(likes+1);
         }
         setLiked(!liked)
