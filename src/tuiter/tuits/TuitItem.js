@@ -30,21 +30,21 @@ const TuitItem = (
     console.log(tuit)
     return (
         <>
-        <div class="wd-post">
-            <img class="col-1 wd-avatar-image" src={`/images/${tuit.image}`}/>
-            <div class="col-11 ps-2">
+        <div className="wd-post">
+            <img className="col-1 wd-avatar-image" src={`/images/${tuit.image}`}/>
+            <div className="col-11 ps-2">
                 <div>
                     <i className="bi bi-x-lg float-end float-right"
                        onClick={() => deleteTuitHandler(tuit._id)}></i>
-                    <div class=" wd-author-name">
+                    <div className=" wd-author-name">
                         <span> {tuit.username} </span>
                         <i className="ps-2 pe-2 bi bi-patch-check-fill text-primary"></i>
-                        <span class="wd-author-handle">{tuit.handle} · {tuit.time}</span>
+                        <span className="wd-author-handle">{tuit.handle} · {tuit.time}</span>
                     </div>
                 </div>
 
                 <div>
-                    <div class="wd-main-content">{tuit.tuit}</div>
+                    <div className="wd-main-content">{tuit.tuit}</div>
                 </div>
               <TuitStats tuit={tuit}/>
             </div>
